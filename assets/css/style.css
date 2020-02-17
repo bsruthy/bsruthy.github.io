@@ -23,7 +23,7 @@ main#main {
     transform: translate3d(100%,0,0);
     z-index: 0;
     opacity: 0;
-    background-color: #f1f3f6;
+    background-color: #fff;
     -webkit-transition: opacity 0s ease .6s,-webkit-transform .6s ease .6s;
     transition: transform .6s ease .6s,opacity 0s ease .6s,-webkit-transform .6s ease .6s;
     padding-left: 80px;
@@ -283,7 +283,7 @@ ul.pattern .color5 {
     background: #ffb55a ;
 }
 ul.pattern .color6 {
-    background:#d23e50;
+    background:#fff;
 }
 
 /*-------------------------
@@ -330,7 +330,7 @@ header {
     top: 0;
     left: 0;
     height: 100%;
-    background: #f1f3f6;
+    background: #ffffff;
     box-shadow: 3px 3px 8px rgba(55,84,170,0.1) , -3px -3px 8px rgb(255,255, 255);
 }
 .menu{
@@ -340,7 +340,7 @@ header {
     width: 100%;
 }
 .menu .list-group-item{
-    background-color: transparent;
+    color: white;
     border: none;
     padding: 0.5rem;
 }
@@ -401,9 +401,16 @@ header .navbar-brand b {
 /*-------------------------
            Hero
 -------------------------*/
-.hero-01{
-    background: url("../img/hero-01.jpg") no-repeat;
+.mycls{
+  background: url("https://image.freepik.com/free-vector/technology-background-made-abstract-fluid_22415-1963.jpg") no-repeat;
     background-size: cover;
+    height: 500px;
+
+}
+.hero-01{
+    background: url("https://image.freepik.com/free-vector/technology-background-made-abstract-fluid_22415-1963.jpg") no-repeat;
+    background-size: cover;
+    /*background-color: #ffffff;*/
 }
 .hero-02 {
     background: url("../img/home-bg.jpg") no-repeat;
@@ -424,7 +431,7 @@ header .navbar-brand b {
     left: 0;
     right: 0;
     bottom: 0;
-    background-color: rgba(0, 0, 0, 0.1);
+    background-color: white;
 }
 .hero-05 .video-overlay {
     position: absolute;
